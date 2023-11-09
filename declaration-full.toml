@@ -1,0 +1,73 @@
+# Note: this file includes all possible configuration options. ─────────────────
+
+# defaults to be used unless overriden - follows the general base16 structure ──
+color00 = "#XXXXXX"
+color01 = "#XXXXXX"
+color02 = "#XXXXXX"
+color03 = "#XXXXXX"
+color04 = "#XXXXXX"
+color05 = "#XXXXXX"
+color06 = "#XXXXXX"
+color07 = "#XXXXXX"
+color08 = "#XXXXXX"
+color09 = "#XXXXXX"
+color0A = "#XXXXXX"
+color0B = "#XXXXXX"
+color0C = "#XXXXXX"
+color0D = "#XXXXXX"
+color0E = "#XXXXXX"
+color0F = "#XXXXXX"
+
+# this block is basically just intuitive aliases ───────────────────────────────
+background1 = "$color00"
+background2 = "$color01"
+foreground = "$"
+window-border = "$"
+lines-inactive = "$"
+
+# default syntax highlighting rules ════════════════════════════════════════════
+[syntax-colors]
+
+# language-specific overrides ──────────────────────────────────────────────────
+[markdown]
+# ...
+
+[latex]
+# ...
+
+[c]
+# ...
+
+[rust]
+# ...
+
+[nim]
+# ...
+
+[zig] 
+# ...
+
+[python]
+background = "{$background1}"
+function = "$"
+# ...
+
+[cython]
+# ...
+function = "$python.function"
+
+[julia]
+# ...
+
+[ruby]
+# ...
+
+[more-to-come]
+# ...
+
+# app-specific overrides ═══════════════════════════════════════════════════════
+[wezterm]
+background = "$background"
+
+[more-to-follow]
+# ...
